@@ -1,0 +1,12 @@
+2019/05/24-12:22:50.931 7bc Recovering log #192
+2019/05/24-12:22:50.931 7bc Level-0 table #194: started
+2019/05/24-12:22:50.938 7bc Level-0 table #194: 393 bytes OK
+2019/05/24-12:22:50.955 7bc Delete type=3 #190
+2019/05/24-12:22:50.955 7bc Delete type=0 #192
+2019/05/24-12:22:50.955 84c Compacting 4@0 + 0@1 files
+2019/05/24-12:22:50.959 84c Compacted 4@0 + 0@1 files => 0 bytes
+2019/05/24-12:22:50.968 84c compacted to: files[ 0 0 0 0 0 0 0 ]
+2019/05/24-12:22:50.968 84c Delete type=2 #194
+2019/05/24-12:22:50.968 84c Delete type=2 #184
+2019/05/24-12:22:50.968 84c Delete type=2 #181
+2019/05/24-12:22:50.968 84c Delete type=2 #191
