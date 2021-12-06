@@ -1,4 +1,4 @@
-"-------------------------------------------------------------------
+"------------------------------------------------------------------
 " General settings -------------------------------------------------------------------
 syntax on
 set noerrorbells
@@ -41,6 +41,11 @@ nmap <leader>vr :source ~/.config/nvim/init.vim<cr>
 nmap <leader>k :nohlserach<CR>
 nmap <leader>Q bufdo bdelete<cr>
 
+nnoremap <C-j> <C-W><C-J>
+nnoremap <C-k> <C-W><C-K>
+nnoremap <C-l> <C-W><C-L>
+nnoremap <C-h> <C-W><C-H>
+
 map gf :edit <cfile><cr>
 " Reselect visual selection after indenting
 vnoremap < <gv
@@ -52,7 +57,7 @@ vnoremap Y myY`y
 "Insert trailing ; or , smoothly
 imap ;; <Esc>A;<Esc>
 imap ,, <Esc>A;<Esc>
-
+imap jj <Esc>
 " Automatically install vim-plug
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
